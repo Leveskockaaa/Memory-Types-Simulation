@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Allow directories
+!*/
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow all .cpp and .h files
+!code/**/*.cpp
+!code/**/*.h
+
+# Allow documentation PDF files
+!*.pdf
+
+# Allow .sh scripts
+!*.sh
+
+# Allow CMakeLists.txt
+!CMakeLists.txt
